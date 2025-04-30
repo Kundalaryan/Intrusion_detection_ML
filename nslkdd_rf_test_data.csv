@@ -1,0 +1,7 @@
+duration,protocol_type,service,flag,src_bytes,dst_bytes,land,wrong_fragment,urgent,hot,num_failed_logins,logged_in,count,srv_count,serror_rate,srv_serror_rate,rerror_rate,srv_rerror_rate,same_srv_rate,diff_srv_rate,srv_diff_host_rate,dst_host_count,dst_host_srv_count,label
+0,tcp,http,SF,181,5450,0,0,0,0,0,1,511,511,0.0,0.0,0.0,0.0,1.0,0.0,0.0,255,255,0
+0,udp,domain_u,SF,105,146,0,0,0,0,0,1,2,2,0.0,0.0,0.0,0.0,1.0,0.0,0.0,255,255,0
+0,tcp,private,S0,0,0,0,0,0,0,0,0,123,123,1.0,1.0,0.0,0.0,1.0,0.0,0.0,255,10,1
+0,tcp,ftp,SF,331,0,0,0,0,0,0,1,33,33,0.0,0.0,0.0,0.0,1.0,0.0,0.0,255,255,0
+0,icmp,eco_i,SF,0,0,0,0,0,0,0,1,5,5,0.0,0.0,0.0,0.0,1.0,0.0,0.0,255,255,0
+0,tcp,telnet,S0,0,0,0,0,0,0,0,0,222,222,1.0,1.0,0.0,0.0,1.0,0.0,0.0,255,2,1
