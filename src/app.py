@@ -8,7 +8,7 @@ st.set_page_config(page_title="🛡️ Intrusion Detection", layout="wide")
 
 @st.cache_resource
 def load_model():
-    return joblib.load("models/random_forest_model.pkl")  # or xgboost_model.pkl
+    return joblib.load("/Users/aryankundal/Intrusion_detection_ML/src/Models/random_forest_model.pkl")  # or xgboost_model.pkl
 
 def preprocess_input(df):
     df = df.drop(columns=["difficulty"], errors='ignore')
